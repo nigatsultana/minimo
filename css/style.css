@@ -1,0 +1,58 @@
+/*common css start*/
+body{
+	margin:0;
+	font-family:"Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#626262;
+}
+/*common css end*/
+
+/*header start*/
+header{
+	margin:25px 0;
+	
+}
+.cotainer{
+	overflow:hidden;
+	margin:0 auto;
+	width:90%;
+	
+}
+.logo{
+	margin-top:10px;
+	float:left;
+	width:12%;
+	
+
+}
+.logo a{}
+.logo a img{
+	width:100%;
+}
+.menu{
+	float:right;
+	width:65%;
+	
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	float:left;
+	list-style: none;
+}
+.menu ul li a{
+	display:inline-block;
+	margin:0 50px;
+	color:#626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu ul li a:hover{}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+
+/*header end*/
